@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member 1 — Portfolio</title>
+    <link rel="stylesheet" href="css/member.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="top"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-blur fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navMenu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="memberDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Member
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="memberDropdown">
+                            <li><a class="dropdown-item" href="member1.html">Member 1</a></li>
+                            <li><a class="dropdown-item" href="member2.html">Member 2</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#top">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ----- -->
+
+    <main class="page-wrap">
+        <!-- About -->
+        <section class="container">
+            <div class="glass p-4 p-md-5 mb-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-5 text-center">
+                        <img src="img/profileM1.jpg" alt="Member 1" class="portrait">
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="fw-bold mb-1 text-white">Member 1</h1>
+                        <div class="text-dim mb-3">intra "nkasuwan"</div>
+                        <p class="text-soft mb-3">My name is Nattapol Kasuwan (Nai)</p>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="p-3 rounded-3"
+                                    style="background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12);">
+                                    <div class="small text-dim mb-1">Education</div>
+                                    <div style="color: rgb(177, 177, 177);">KMITL - Computer Science</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 rounded-3"
+                                    style="background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12);">
+                                    <div class="small text-dim mb-1">High School</div>
+                                    <div style="color: rgb(177, 177, 177);">Navamindarajudis Krungthepmahanakhon School
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----- -->
+
+        <!-- Certificates -->
+        <section id="certificates" class="container mb-5">
+            <h3 class="mb-3 text-white">Certificates</h3>
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    <div class="glass p-3 h-100">
+                        <img src="img/CertificateM1/Cer_1.jpg" alt="Certificate 1" class="cert-img">
+                        <p class="text-soft mt-3 mb-0">การแข่งขันเขียนโปรแกรมภาษาคอมพิวเตอร์</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="glass p-3 h-100">
+                        <img src="img/CertificateM1/Cer_2.jpg" alt="Certificate 2" class="cert-img">
+                        <p class="text-soft mt-3 mb-0">กิจกรรมค่าย Robotics & Ai Ventures 2024</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="glass p-3 h-100">
+                        <img src="img/CertificateM1/Cer_3.jpg" alt="Certificate 3" class="cert-img">
+                        <p class="text-soft mt-3 mb-0">Workshop เรียนรู้สนุกกับภาษาPython</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="glass p-3 h-100">
+                        <img src="img/CertificateM1/Cer_4.jpg" alt="Certificate 4" class="cert-img">
+                        <p class="text-soft mt-3 mb-0">การแข่งขันหุ่นยนต์ระดับสูง</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----- -->
+
+        <!-- Contact -->
+        <section id="contact" class="container mb-5">
+            <div class="glass p-4">
+                <h3 class="mb-3 text-white">Contact</h3>
+                <ul class="list-unstyled text-soft mb-0">
+                    <li class="mb-2"><strong>Email:</strong> 68050164@kmitl.ac.th</li>
+                    <li class="mb-2"><strong>Instagram:</strong>
+                        <a class="text-reset text-decoration-underline" href="https://www.instagram.com/nattapol1598/"
+                            target="_blank"> nattapol1598</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ----- -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.querySelectorAll('a[href="#top"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+
+</html>
